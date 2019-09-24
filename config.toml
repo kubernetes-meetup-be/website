@@ -51,28 +51,28 @@ theme = "hugo-elate-theme"
   [params.intro]
 
   [[params.intro.item]]
-    title = "Core sponsor"
-    description = "We partner with your development team in building and operating solutions based on Open Source, Amazon Web Services , Containers and Serverless technologies."
-    url = "https://skyscrapers.eu/"
-    button = "Visit our sponsor!"
-    icon = "icon-like"
-    img = "skyscrapers_logo.jpeg"
+    title = "Become a sponsor"
+    description = "As a sponsor you help us spread knowlegde about Kubernetes and its broad ecosystem"
+    url = "https://forms.gle/xy7GrGjJSE5JnCuK8"
+    button = "Submit your interest"
+    icon = "icon-rocket"
+    img = "img_7.jpg"
 
- # [[params.intro.item]]
- #   title = "Develop"
- #   description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
- #   url = "#"
- #   button = "Click Me"
- #   icon = "icon-wrench"
- #   img = "img_8.jpg"
+  [[params.intro.item]]
+    title = "Become a speaker"
+    description = "If you want to share your experience and knowlegde with a group of Kubernetes enthousiasts submit a talk."
+    url = "https://forms.gle/xy7GrGjJSE5JnCuK8"
+    button = "Sumbit a talk"
+    icon = "icon-graduation"
+    img = "img_8.jpg"
 
- # [[params.intro.item]]
- #   title = "Launch"
- #   description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
- #   url = "#"
- #   button = "Why us?"
- #   icon = "icon-rocket"
- #   img = "img_10.jpg"
+  [[params.intro.item]]
+    title = "Official Meetup page"
+    description = "Visit our official Meetup page to become a member of the Kubernetes Belgium Meetup group."
+    url = "https://www.meetup.com/kubernetes-belgium/"
+    button = "Join us on Meetup"
+    icon = "icon-bubbles"
+    img = "img_10.jpg"
 
 #  [params.intro.video]
 #    enable = true
