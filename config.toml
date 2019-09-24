@@ -89,28 +89,28 @@ theme = "hugo-elate-theme"
     footertext = '** Visit our offial Meetup page <a href="https://www.meetup.com/kubernetes-belgium/" target="_blank">here</a>'
 
     [[params.work.row]]
-      img = "work_1.jpg"
-      alt = "Image2"
+      img = "dataminded_logo.png"
+      alt = "Data Minded Logo"
       title = "October Meetup"
-      subtitle = "Data Minded"
+      subtitle = "Data Minded - 01/10/2019"
 
     [[params.work.row]]
-      img = "work_2.jpg"
-      alt = "Image2"
+      img = "kubecon_barcelona_logo.png"
+      alt = "KubeCon Barcelona Logo"
       title = "KubeCon Barcelona Recap"
-      subtitle = "Rombit"
+      subtitle = "Rombit - Ended"
 
     [[params.work.row]]
-      img = "work_3.jpg"
-      alt = "Image3"
+      img = "hashicorp_logo.png"
+      alt = "HashiCorp Logo"
       title = "A HashiCorp Evening"
-      subtitle = "Teamleader"
+      subtitle = "Teamleader - Ended"
 
     [[params.work.row]]
-      img = "work_4.jpg"
-      alt = "Image4"
+      img = "fosdem_logo.png"
+      alt = "FOSDEM Logo"
       title = "Pre-FOSDEM warmup"
-      subtitle = "Hackerspace Brussels"
+      subtitle = "Hackerspace Brussels - Ended"
 
   # Testimonials section
   [params.testimonials]
