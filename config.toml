@@ -20,7 +20,7 @@ theme = "hugo-elate-theme"
   [params.navigation]
     brand = "Kubernetes Belgium Meetup"
     home = "Home"
-    work = "Upcoming events"
+    work = "Meetups"
     previous = "Previous events"
     sponsors = "Sponsors"
     about = "About"
@@ -84,45 +84,33 @@ theme = "hugo-elate-theme"
   # Work section
   [params.work]
     enable = true
-    title = "Work"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
+    title = "Meetups"
+    description = "Check our upcoming and previous meetups below!"
+    footertext = '** Visit our offial Meetup page <a href="https://www.meetup.com/kubernetes-belgium/" target="_blank">here</a>'
 
     [[params.work.row]]
       img = "work_1.jpg"
       alt = "Image2"
-      title = "Project 1"
-      subtitle = "Branding"
+      title = "October Meetup"
+      subtitle = "Data Minded"
 
     [[params.work.row]]
       img = "work_2.jpg"
       alt = "Image2"
-      title = "Project 2"
-      subtitle = "Design"
+      title = "KubeCon Barcelona Recap"
+      subtitle = "Rombit"
 
     [[params.work.row]]
       img = "work_3.jpg"
       alt = "Image3"
-      title = "Project 3"
-      subtitle = "Design"
+      title = "A HashiCorp Evening"
+      subtitle = "Teamleader"
 
     [[params.work.row]]
       img = "work_4.jpg"
       alt = "Image4"
-      title = "Project 4"
-      subtitle = "Design"
-
-    [[params.work.row]]
-      img = "work_5.jpg"
-      alt = "Image5"
-      title = "Project 5"
-      subtitle = "Design"
-
-    [[params.work.row]]
-      img = "work_6.jpg"
-      alt = "Image6"
-      title = "Project 6"
-      subtitle = "Design"
+      title = "Pre-FOSDEM warmup"
+      subtitle = "Hackerspace Brussels"
 
   # Testimonials section
   [params.testimonials]
