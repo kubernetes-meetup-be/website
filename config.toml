@@ -18,7 +18,7 @@ theme = "hugo-elate-theme"
 
   # Navigation
   [params.navigation]
-    brand = "Kubernetes Belgium Meetup Group"
+    brand = "Kubernetes Belgium Meetup"
     home = "Home"
     upcoming = "Upcoming events"
     previous = "Previous events"
@@ -44,7 +44,7 @@ theme = "hugo-elate-theme"
   # Hero section
   [params.hero]
     title = "What we're about"
-    subtitle = 'This group is about all things around <a href="https://kubernetes.io/" target="_blank">Kubernetes</a> – from using it to deploying apps, over deploying of <a href="https://kubernetes.io/" target="_blank">Kubernetes</a> clusters to development inside of the Kubernetes opensource project.'
+    subtitle = 'This group is about all things around <a href="https://kubernetes.io/" target="_blank">Kubernetes</a> from using it to deploying apps, over deploying of <a href="https://kubernetes.io/" target="_blank">Kubernetes</a> clusters to development inside of the Kubernetes opensource project.'
  
   # Intro section
   # Available icons: http://simplelineicons.com/
@@ -52,27 +52,27 @@ theme = "hugo-elate-theme"
 
   [[params.intro.item]]
     title = "Core sponsor"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    description = "We partner with your development team in building and operating solutions based on Open Source, Amazon Web Services , Containers and Serverless technologies."
     url = "https://skyscrapers.eu/"
     button = "Visit our sponsor!"
-    icon = "icon-bulb"
-    img = "img_7.jpg"
+    icon = "icon-like"
+    img = "skyscrapers_logo.jpeg"
 
-  [[params.intro.item]]
-    title = "Develop"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    url = "#"
-    button = "Click Me"
-    icon = "icon-wrench"
-    img = "img_8.jpg"
+ # [[params.intro.item]]
+ #   title = "Develop"
+ #   description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+ #   url = "#"
+ #   button = "Click Me"
+ #   icon = "icon-wrench"
+ #   img = "img_8.jpg"
 
-  [[params.intro.item]]
-    title = "Launch"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    url = "#"
-    button = "Why us?"
-    icon = "icon-rocket"
-    img = "img_10.jpg"
+ # [[params.intro.item]]
+ #   title = "Launch"
+ #   description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+ #   url = "#"
+ #   button = "Why us?"
+ #   icon = "icon-rocket"
+ #   img = "img_10.jpg"
 
   [params.intro.video]
     enable = true
