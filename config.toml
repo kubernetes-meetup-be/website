@@ -52,7 +52,7 @@ theme = "hugo-elate-theme"
 
   [[params.intro.item]]
     title = "Become a sponsor"
-    description = "As a sponsor you help us spread knowlegde about Kubernetes and its broad ecosystem"
+    description = "As a sponsor you help us spread knowlegde about Kubernetes and its broad ecosystem in Belgium."
     url = "https://forms.gle/xy7GrGjJSE5JnCuK8"
     button = "Submit your interest"
     icon = "icon-rocket"
