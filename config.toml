@@ -171,15 +171,13 @@ theme = "hugo-elate-theme"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
     [[params.about.item]]
-      name = "Jean Smith"
-      position = "Web Designer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person1.jpg"
-      alt = "Person1"
+      name = "October Meetup"
+      position = "Data Minded, Leuven, 01/10/2019"
+      description = "<p>Traefik v2.0 & Maesh: Look Ma, routing HTTP and TCP with no Hands!, <strong>Damien DUPORTAL</strong></p> <p>Scaling from zero to n - Running Kubernetes native workloads as functions using Knative, <strong>Dieter Hubau</strong></p>"
+      img = "dataminded_logo.png"
+      alt = "Data Minded Logo"
       social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-linkedin", "#"]
+        ["icon-meetup", "https://www.meetup.com/kubernetes-belgium/events/264700528/"]
       ]
 
     [[params.about.item]]
