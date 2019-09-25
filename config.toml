@@ -173,7 +173,7 @@ theme = "hugo-elate-theme"
     [[params.about.item]]
       name = "October Meetup"
       position = "Data Minded, Leuven, 01/10/2019"
-      description = "<p>Traefik v2.0 & Maesh: Look Ma, routing HTTP and TCP with no Hands!, <strong>Damien DUPORTAL</strong></p> <p>Scaling from zero to n - Running Kubernetes native workloads as functions using Knative, <strong>Dieter Hubau</strong></p>"
+      description = "<p>Traefik v2.0 & Maesh: Look Ma, routing HTTP and TCP with no Hands!<br /><strong>Damien DUPORTAL</strong></p> <p>Scaling from zero to n - Running Kubernetes native workloads as functions using Knative<br /><strong>Dieter Hubau</strong></p>"
       img = "dataminded_logo.png"
       alt = "Data Minded Logo"
       social = [
