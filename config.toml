@@ -20,10 +20,10 @@ theme = "hugo-elate-theme"
   [params.navigation]
     brand = "Kubernetes Belgium Meetup"
     home = "Home"
-    work = "Meetups"
+    work = "Sponsors"
     previous = "Previous events"
     sponsors = "Sponsors"
-    about = "About"
+    about = "Meetups"
     contact = "Contact"
 
     # You can add custom links before or after the default links
@@ -84,33 +84,33 @@ theme = "hugo-elate-theme"
   # Work section
   [params.work]
     enable = true
-    title = "Meetups"
+    title = "Sponsors"
     description = "Check our upcoming and previous meetups below!"
     footertext = '** Visit our offial Meetup page <a href="https://www.meetup.com/kubernetes-belgium/" target="_blank">here</a>'
 
     [[params.work.row]]
+      img = "skyscrapers_logo.png"
+      alt = "Skyscrapers Logo"
+      title = "Main sponsor"
+      subtitle = "Helping our customers towards a Cloud Native world."
+
+    [[params.work.row]]
       img = "dataminded_logo.png"
       alt = "Data Minded Logo"
-      title = "October Meetup"
-      subtitle = "Data Minded - 01/10/2019"
+      title = "Meetup sponsor"
+      subtitle = "Data engineering for impact."
 
-    [[params.work.row]]
-      img = "kubecon_barcelona_logo.png"
-      alt = "KubeCon Barcelona Logo"
-      title = "KubeCon Barcelona Recap"
-      subtitle = "Rombit - Ended"
+#    [[params.work.row]]
+#      img = "hashicorp_logo.png"
+#      alt = "HashiCorp Logo"
+#      title = "A HashiCorp Evening"
+#      subtitle = "Teamleader - Ended"
 
-    [[params.work.row]]
-      img = "hashicorp_logo.png"
-      alt = "HashiCorp Logo"
-      title = "A HashiCorp Evening"
-      subtitle = "Teamleader - Ended"
-
-    [[params.work.row]]
-      img = "fosdem_logo.png"
-      alt = "FOSDEM Logo"
-      title = "Pre-FOSDEM warmup"
-      subtitle = "Hackerspace Brussels - Ended"
+#    [[params.work.row]]
+#      img = "fosdem_logo.png"
+#      alt = "FOSDEM Logo"
+#      title = "Pre-FOSDEM warmup"
+#      subtitle = "Hackerspace Brussels - Ended"
 
   # Testimonials section
   [params.testimonials]
@@ -173,36 +173,36 @@ theme = "hugo-elate-theme"
     [[params.about.item]]
       name = "October Meetup"
       position = "Data Minded, Leuven, 01/10/2019"
-      description = "<p>Traefik v2.0 & Maesh: Look Ma, routing HTTP and TCP with no Hands!<br /><strong>Damien DUPORTAL</strong></p> <p>Scaling from zero to n - Running Kubernetes native workloads as functions using Knative<br /><strong>Dieter Hubau</strong></p>"
+      description = "<p>Traefik v2.0 & Maesh: Look Ma, routing HTTP and TCP with no Hands!<br /><strong>Damien DUPORTAL</strong></p> <p>Scaling from zero to n - Running Kubernetes native workloads as functions using Knative<br /><strong>Dieter Hubau</strong></p> <p>Big Data jobs on K8S<br /><strong>Stijn De Haes</strong></p>"
       img = "dataminded_logo.png"
       alt = "Data Minded Logo"
       social = [
-        ["icon-meetup", "https://www.meetup.com/kubernetes-belgium/events/264700528/"]
+        ["icon-globe", "https://www.meetup.com/kubernetes-belgium/events/264700528/"]
       ]
 
-    [[params.about.item]]
-      name = "Rob Smith"
-      position = "Web Developer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person2.jpg"
-      alt = "Person2"
-      social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-github", "#"]
-      ]
+#    [[params.about.item]]
+#      name = "Rob Smith"
+#      position = "Web Developer"
+#      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+#      img = "person2.jpg"
+#      alt = "Person2"
+#      social = [
+#        ["icon-twitter", "#"],
+#        ["icon-facebook", "#"],
+#        ["icon-github", "#"]
+#      ]
 
-    [[params.about.item]]
-      name = "Larry Ben"
-      position = "Web Designer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person3.jpg"
-      alt = "Person3"
-      social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-dribbble", "#"]
-      ]      
+#    [[params.about.item]]
+#      name = "Larry Ben"
+#      position = "Web Designer"
+#      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+#      img = "person3.jpg"
+#      alt = "Person3"
+#      social = [
+#        ["icon-twitter", "#"],
+#        ["icon-facebook", "#"],
+#        ["icon-dribbble", "#"]
+#      ]      
 
   # Counters section
   [params.counters]
@@ -211,36 +211,36 @@ theme = "hugo-elate-theme"
     background = "full_image_1.jpg"
 
     [[params.counters.item]]
-      description = "Finished projects"
-      icon = "icon-briefcase"
-      from = 0
-      to = 89
-      interval = 50
-      speed = 5000
-
-    [[params.counters.item]]
-      description = "Lines of code"
-      icon = "icon-code"
-      from = 0
-      to = 2343409
-      interval = 50
-      speed = 5000
-
-    [[params.counters.item]]
-      description = "Cups of coffee"
-      icon = "icon-cup"
-      from = 0
-      to = 1302
-      interval = 50
-      speed = 5000
-
-    [[params.counters.item]]
-      description = "Happy clients"
+      description = "Belgian Kubernauts"
       icon = "icon-people"
       from = 0
-      to = 52
+      to = 750
       interval = 50
       speed = 5000
+
+    [[params.counters.item]]
+      description = "2019 Meetups"
+      icon = "icon-bubbles"
+      from = 0
+      to = 3
+      interval = 1
+      speed = 1 
+
+ #   [[params.counters.item]]
+ #     description = "Cups of coffee"
+ #     icon = "icon-cup"
+ #     from = 0
+ #     to = 1302
+ #     interval = 50
+ #     speed = 5000
+
+ #   [[params.counters.item]]
+ #     description = "Happy clients"
+ #     icon = "icon-people"
+ #     from = 0
+ #     to = 52
+ #     interval = 50
+ #     speed = 5000
 
   # Contact section
   [params.contact]
