@@ -89,7 +89,7 @@ theme = "hugo-elate-theme"
     footertext = '** Visit our offial Meetup page <a href="https://www.meetup.com/kubernetes-belgium/" target="_blank">here</a>'
 
     [[params.work.row]]
-      img = "skyscrapers_logo.png"
+      img = "skyscrapers_logo.jpeg"
       alt = "Skyscrapers Logo"
       title = "Main sponsor"
       subtitle = "Helping our customers towards a Cloud Native world."
